@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B120B867F8A076024F6F13967285360 /* Pods-NYU-Voice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 462B941F9E6A5639D4273F0FB99BE00B /* Pods-NYU-Voice-dummy.m */; };
+		785BFA5AB71CC90FCB1045066BE57463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		7A85DDA82105465191090E1CD3FCDC00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
+		81757F684D084AC69DAE797488D314F2 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA781965C2869087D46395C83962683 /* MarqueeLabel-dummy.m */; };
+		8AD30DC71849DEDEBD8EDC202423109B /* EFAutoScrollLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5233BFA6C2783546DE07E83C68A0D9 /* EFAutoScrollLabel.swift */; };
+		972DA97B5E21B79C0C82A9E7C3F47982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		B812F90DB775AFDF1DFA13480D844916 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89016725CA2742FB8F576FD62497E77 /* MarqueeLabel.swift */; };
+		BE64F09C3FD8A8D6792060FA5E10381A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
+		CF091D33BCD15CC9247D5AA88B72F074 /* Pods-NYU-Voice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0807323AD46DA7D2F96E2F0F7563BEC /* Pods-NYU-Voice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB923051D121B166B855AF1C0809BAEF /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F736CE5EF30A3C7B2E04AE81A4828D82 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E12F2F4AB46F2B8AF5E38C1A05C89C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		EEC100E8535371FF723562BD8D742439 /* EFAutoScrollLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F5A6A871B86DD8EF24D297FEE80FC5 /* EFAutoScrollLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B6A7FFAF6C37516285F4A0E6179FCC /* EFAutoScrollLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FAB1D169A37466B1C5159321E2373A /* EFAutoScrollLabel-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3676155FDF63CF1A298F89C9BCA73BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298DDEF8F0ED118B7EC037D38D8F2511;
+			remoteInfo = EFAutoScrollLabel;
+		};
+		925BF5FDCC5B11DB681E8333435F89C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320AD47B0C6BA014D301395D3BFC8FB6;
+			remoteInfo = MarqueeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CC6AA2264751B81EC87451CB669728E /* Pods-NYU-Voice-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYU-Voice-acknowledgements.plist"; sourceTree = "<group>"; };
+		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37B08431DE8D8BC17F1520F999BCC241 /* Pods-NYU-Voice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYU-Voice.release.xcconfig"; sourceTree = "<group>"; };
+		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3EA781965C2869087D46395C83962683 /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		438BB15B709872D96F655C8D1CECBCF8 /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarqueeLabel.framework; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		462B941F9E6A5639D4273F0FB99BE00B /* Pods-NYU-Voice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYU-Voice-dummy.m"; sourceTree = "<group>"; };
+		5615244AF5E8B7F36E197876B8172C4E /* Pods-NYU-Voice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYU-Voice.debug.xcconfig"; sourceTree = "<group>"; };
+		579CADD4D3A9FC2187C45653DAED8702 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6768E5884D946C6CFFB6E967D1F660DE /* Pods_NYU_Voice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYU_Voice.framework; path = "Pods-NYU-Voice.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF908002ACCF27F19C1BDD7C28815FA /* Pods-NYU-Voice-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NYU-Voice-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B6C93ECCEEE71E9563DCA4D9318C1AC /* EFAutoScrollLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFAutoScrollLabel-prefix.pch"; sourceTree = "<group>"; };
+		7F5233BFA6C2783546DE07E83C68A0D9 /* EFAutoScrollLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFAutoScrollLabel.swift; path = EFAutoScrollLabel/Classes/EFAutoScrollLabel.swift; sourceTree = "<group>"; };
+		8A4F95AC764FB5A07F84BD583B24A295 /* Pods-NYU-Voice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NYU-Voice.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948DD71BBE3524A360D985D3700A7B0E /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
+		9816BADB3011E3F0C136EDB4CAF048CF /* Pods-NYU-Voice-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYU-Voice-resources.sh"; sourceTree = "<group>"; };
+		A504F74E86D84ADDC93609E3C816F1A8 /* Pods-NYU-Voice-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYU-Voice-frameworks.sh"; sourceTree = "<group>"; };
+		BC623F5816C4EA9F7D92B2A5E8388CBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B49ADD75D5D8105130CB04B9F6ACB9 /* EFAutoScrollLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EFAutoScrollLabel.modulemap; sourceTree = "<group>"; };
+		C2FAB1D169A37466B1C5159321E2373A /* EFAutoScrollLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFAutoScrollLabel-dummy.m"; sourceTree = "<group>"; };
+		C3AB1FA5D6BFC030065643F654EBA151 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9183CB2DC5006A7A92D48F1882AE114 /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
+		CA7969880BE1EB17A476FE8C4F452D6C /* EFAutoScrollLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFAutoScrollLabel.xcconfig; sourceTree = "<group>"; };
+		D0807323AD46DA7D2F96E2F0F7563BEC /* Pods-NYU-Voice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYU-Voice-umbrella.h"; sourceTree = "<group>"; };
+		E0B5A0A056193C3DBFCBD54CEEE62E06 /* EFAutoScrollLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFAutoScrollLabel.framework; path = EFAutoScrollLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FA2950AD885904ECA746C4012B3E8C /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
+		E89016725CA2742FB8F576FD62497E77 /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/Swift/MarqueeLabel.swift; sourceTree = "<group>"; };
+		F6F5A6A871B86DD8EF24D297FEE80FC5 /* EFAutoScrollLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFAutoScrollLabel-umbrella.h"; sourceTree = "<group>"; };
+		F736CE5EF30A3C7B2E04AE81A4828D82 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
+		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B4C192E6FE0194F04130A5342FA2294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785BFA5AB71CC90FCB1045066BE57463 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B068E6074E60F2BB374B1A501AA3D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972DA97B5E21B79C0C82A9E7C3F47982 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5881BC4ADA6E767FAC6CDFC9A796C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12F2F4AB46F2B8AF5E38C1A05C89C0D /* Foundation.framework in Frameworks */,
+				BE64F09C3FD8A8D6792060FA5E10381A /* QuartzCore.framework in Frameworks */,
+				7A85DDA82105465191090E1CD3FCDC00 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17CBD6BF1E541034D3599E42C6E271A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DC078ED54BBEAEB1E2356D497239617 /* Pods-NYU-Voice */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1DC078ED54BBEAEB1E2356D497239617 /* Pods-NYU-Voice */ = {
+			isa = PBXGroup;
+			children = (
+				C3AB1FA5D6BFC030065643F654EBA151 /* Info.plist */,
+				8A4F95AC764FB5A07F84BD583B24A295 /* Pods-NYU-Voice.modulemap */,
+				6DF908002ACCF27F19C1BDD7C28815FA /* Pods-NYU-Voice-acknowledgements.markdown */,
+				1CC6AA2264751B81EC87451CB669728E /* Pods-NYU-Voice-acknowledgements.plist */,
+				462B941F9E6A5639D4273F0FB99BE00B /* Pods-NYU-Voice-dummy.m */,
+				A504F74E86D84ADDC93609E3C816F1A8 /* Pods-NYU-Voice-frameworks.sh */,
+				9816BADB3011E3F0C136EDB4CAF048CF /* Pods-NYU-Voice-resources.sh */,
+				D0807323AD46DA7D2F96E2F0F7563BEC /* Pods-NYU-Voice-umbrella.h */,
+				5615244AF5E8B7F36E197876B8172C4E /* Pods-NYU-Voice.debug.xcconfig */,
+				37B08431DE8D8BC17F1520F999BCC241 /* Pods-NYU-Voice.release.xcconfig */,
+			);
+			name = "Pods-NYU-Voice";
+			path = "Target Support Files/Pods-NYU-Voice";
+			sourceTree = "<group>";
+		};
+		44E2B85E9A2F1C893D0973846B55D1BF /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E89016725CA2742FB8F576FD62497E77 /* MarqueeLabel.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		53804CB0776BFFAE536B0B97C31AC74A /* EFAutoScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7F5233BFA6C2783546DE07E83C68A0D9 /* EFAutoScrollLabel.swift */,
+				62E2A1721E1E8CC5CE9A33A3B0DCE18A /* Support Files */,
+			);
+			name = EFAutoScrollLabel;
+			path = EFAutoScrollLabel;
+			sourceTree = "<group>";
+		};
+		62C3756CE1A06EB95E280A2EA06EE253 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53804CB0776BFFAE536B0B97C31AC74A /* EFAutoScrollLabel */,
+				EFC57EF6B90296B179BAD502A672A0AE /* MarqueeLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62E2A1721E1E8CC5CE9A33A3B0DCE18A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B49ADD75D5D8105130CB04B9F6ACB9 /* EFAutoScrollLabel.modulemap */,
+				CA7969880BE1EB17A476FE8C4F452D6C /* EFAutoScrollLabel.xcconfig */,
+				C2FAB1D169A37466B1C5159321E2373A /* EFAutoScrollLabel-dummy.m */,
+				7B6C93ECCEEE71E9563DCA4D9318C1AC /* EFAutoScrollLabel-prefix.pch */,
+				F6F5A6A871B86DD8EF24D297FEE80FC5 /* EFAutoScrollLabel-umbrella.h */,
+				BC623F5816C4EA9F7D92B2A5E8388CBF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EFAutoScrollLabel";
+			sourceTree = "<group>";
+		};
+		748D4B9653A9D014EAF26500F384CFF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0B5A0A056193C3DBFCBD54CEEE62E06 /* EFAutoScrollLabel.framework */,
+				438BB15B709872D96F655C8D1CECBCF8 /* MarqueeLabel.framework */,
+				6768E5884D946C6CFFB6E967D1F660DE /* Pods_NYU_Voice.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				62C3756CE1A06EB95E280A2EA06EE253 /* Pods */,
+				748D4B9653A9D014EAF26500F384CFF7 /* Products */,
+				17CBD6BF1E541034D3599E42C6E271A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */,
+				FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */,
+				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EFC57EF6B90296B179BAD502A672A0AE /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F94C9A969ADE13A76AB5C32CB63933A4 /* Support Files */,
+				44E2B85E9A2F1C893D0973846B55D1BF /* Swift */,
+			);
+			name = MarqueeLabel;
+			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		F94C9A969ADE13A76AB5C32CB63933A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				579CADD4D3A9FC2187C45653DAED8702 /* Info.plist */,
+				948DD71BBE3524A360D985D3700A7B0E /* MarqueeLabel.modulemap */,
+				C9183CB2DC5006A7A92D48F1882AE114 /* MarqueeLabel.xcconfig */,
+				3EA781965C2869087D46395C83962683 /* MarqueeLabel-dummy.m */,
+				E6FA2950AD885904ECA746C4012B3E8C /* MarqueeLabel-prefix.pch */,
+				F736CE5EF30A3C7B2E04AE81A4828D82 /* MarqueeLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E9A6223A19067BEAD39A6902E772E97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF091D33BCD15CC9247D5AA88B72F074 /* Pods-NYU-Voice-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6740EBADC5D0B613190DC71E169038F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC100E8535371FF723562BD8D742439 /* EFAutoScrollLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4CC9FD659266292E00B030BE3557AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB923051D121B166B855AF1C0809BAEF /* MarqueeLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		298DDEF8F0ED118B7EC037D38D8F2511 /* EFAutoScrollLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67098EC03532ECE63ED3EE108C2754D5 /* Build configuration list for PBXNativeTarget "EFAutoScrollLabel" */;
+			buildPhases = (
+				D57482DBD3A43B7EAF38804CC4DA9CCE /* Sources */,
+				1B4C192E6FE0194F04130A5342FA2294 /* Frameworks */,
+				6740EBADC5D0B613190DC71E169038F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFAutoScrollLabel;
+			productName = EFAutoScrollLabel;
+			productReference = E0B5A0A056193C3DBFCBD54CEEE62E06 /* EFAutoScrollLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		320AD47B0C6BA014D301395D3BFC8FB6 /* MarqueeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB93BA3C12E3426B5019CB531E1C08DC /* Build configuration list for PBXNativeTarget "MarqueeLabel" */;
+			buildPhases = (
+				E424089A1B4CDB88E747B5F58F5C64AC /* Sources */,
+				F5881BC4ADA6E767FAC6CDFC9A796C14 /* Frameworks */,
+				AC4CC9FD659266292E00B030BE3557AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarqueeLabel;
+			productName = MarqueeLabel;
+			productReference = 438BB15B709872D96F655C8D1CECBCF8 /* MarqueeLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FF49B66BE943D5ADE6759BDBDAD0D8C /* Pods-NYU-Voice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90135560C8DD6F7427804EA8AE18E10 /* Build configuration list for PBXNativeTarget "Pods-NYU-Voice" */;
+			buildPhases = (
+				8336E9528D1882B0984D4E40410EAB74 /* Sources */,
+				9B068E6074E60F2BB374B1A501AA3D14 /* Frameworks */,
+				5E9A6223A19067BEAD39A6902E772E97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BE21D9BD232288218578D520AAE0202 /* PBXTargetDependency */,
+				7A9B541A07A655228800AC757E0DC4CB /* PBXTargetDependency */,
+			);
+			name = "Pods-NYU-Voice";
+			productName = "Pods-NYU-Voice";
+			productReference = 6768E5884D946C6CFFB6E967D1F660DE /* Pods_NYU_Voice.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 748D4B9653A9D014EAF26500F384CFF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				298DDEF8F0ED118B7EC037D38D8F2511 /* EFAutoScrollLabel */,
+				320AD47B0C6BA014D301395D3BFC8FB6 /* MarqueeLabel */,
+				6FF49B66BE943D5ADE6759BDBDAD0D8C /* Pods-NYU-Voice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8336E9528D1882B0984D4E40410EAB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B120B867F8A076024F6F13967285360 /* Pods-NYU-Voice-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57482DBD3A43B7EAF38804CC4DA9CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B6A7FFAF6C37516285F4A0E6179FCC /* EFAutoScrollLabel-dummy.m in Sources */,
+				8AD30DC71849DEDEBD8EDC202423109B /* EFAutoScrollLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E424089A1B4CDB88E747B5F58F5C64AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81757F684D084AC69DAE797488D314F2 /* MarqueeLabel-dummy.m in Sources */,
+				B812F90DB775AFDF1DFA13480D844916 /* MarqueeLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A9B541A07A655228800AC757E0DC4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = 320AD47B0C6BA014D301395D3BFC8FB6 /* MarqueeLabel */;
+			targetProxy = 925BF5FDCC5B11DB681E8333435F89C2 /* PBXContainerItemProxy */;
+		};
+		8BE21D9BD232288218578D520AAE0202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EFAutoScrollLabel;
+			target = 298DDEF8F0ED118B7EC037D38D8F2511 /* EFAutoScrollLabel */;
+			targetProxy = 3676155FDF63CF1A298F89C9BCA73BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		519D82157D747F1AD9246C6AAD4643B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9183CB2DC5006A7A92D48F1882AE114 /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_NAME = MarqueeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		590C9D58200CC874D82CCA0CA383DDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9183CB2DC5006A7A92D48F1882AE114 /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_NAME = MarqueeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9A37C984C026E31FE73357077BA63731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B08431DE8D8BC17F1520F999BCC241 /* Pods-NYU-Voice.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NYU-Voice/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NYU-Voice/Pods-NYU-Voice.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NYU_Voice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A04534B1472EE5188EE809508D5E52BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7969880BE1EB17A476FE8C4F452D6C /* EFAutoScrollLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFAutoScrollLabel/EFAutoScrollLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFAutoScrollLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFAutoScrollLabel/EFAutoScrollLabel.modulemap";
+				PRODUCT_NAME = EFAutoScrollLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DE42CD2C06EF29F5C09FBBB386E08C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7969880BE1EB17A476FE8C4F452D6C /* EFAutoScrollLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFAutoScrollLabel/EFAutoScrollLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFAutoScrollLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFAutoScrollLabel/EFAutoScrollLabel.modulemap";
+				PRODUCT_NAME = EFAutoScrollLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F44405FA977BE567AEB029EBC073C91C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5615244AF5E8B7F36E197876B8172C4E /* Pods-NYU-Voice.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NYU-Voice/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NYU-Voice/Pods-NYU-Voice.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NYU_Voice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67098EC03532ECE63ED3EE108C2754D5 /* Build configuration list for PBXNativeTarget "EFAutoScrollLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE42CD2C06EF29F5C09FBBB386E08C1C /* Debug */,
+				A04534B1472EE5188EE809508D5E52BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB93BA3C12E3426B5019CB531E1C08DC /* Build configuration list for PBXNativeTarget "MarqueeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519D82157D747F1AD9246C6AAD4643B1 /* Debug */,
+				590C9D58200CC874D82CCA0CA383DDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90135560C8DD6F7427804EA8AE18E10 /* Build configuration list for PBXNativeTarget "Pods-NYU-Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44405FA977BE567AEB029EBC073C91C /* Debug */,
+				9A37C984C026E31FE73357077BA63731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

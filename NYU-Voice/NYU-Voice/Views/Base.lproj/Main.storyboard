@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KMO-Xk-AKy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueExtras.ttc">
+            <string>HelveticaNeue-CondensedBlack</string>
+            <string>HelveticaNeue-CondensedBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NYU_Voice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="oOx-qG-sQV">
+                                <rect key="frame" x="20" y="160" width="335" height="307"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Cq1-9a-fzS">
+                                <rect key="frame" x="130" y="84" width="117.5" height="65"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mGG-nk-1ln">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="36"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="NYU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLx-HN-dzP">
+                                                <rect key="frame" x="0.0" y="0.0" width="45.5" height="36"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5b-0T-AWH">
+                                                <rect key="frame" x="50.5" y="0.0" width="67" height="36"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C E N T E R" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvX-4d-wqP">
+                                        <rect key="frame" x="16" y="41" width="85.5" height="24"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="KYu-M1-u3n">
+                                <rect key="frame" x="121" y="503" width="135" height="139"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NI8-ak-RER">
+                                        <rect key="frame" x="0.0" y="0.0" width="135" height="33"/>
+                                        <color key="backgroundColor" red="0.33222073316574097" green="0.14123836159706116" blue="0.43598252534866333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                        <state key="normal" title="Record your voice">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="3HM-ml-jAC" kind="show" identifier="RecordingSegue" id="mdx-0f-Cwf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHp-hj-IQn">
+                                        <rect key="frame" x="0.0" y="53" width="135" height="33"/>
+                                        <color key="backgroundColor" red="0.33212262392044067" green="0.1400044858455658" blue="0.43597999215126038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                        <state key="normal" title="Type your word">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="bL9-Nu-OYd" kind="show" identifier="TypingWordSegue" id="ReB-pk-8ia"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1X-eC-4fO">
+                                        <rect key="frame" x="0.0" y="106" width="135" height="33"/>
+                                        <color key="backgroundColor" red="0.33222073316574097" green="0.14123836159706116" blue="0.43598252534866333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                        <state key="normal" title="About us">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.94447157118055558" green="0.62116806173489381" blue="0.94527468135293846" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="flH-vU-Yr2" kind="show" id="mpb-0V-3pQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oOx-qG-sQV" secondAttribute="bottom" constant="200" id="Ayq-B4-IaQ"/>
+                            <constraint firstItem="oOx-qG-sQV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Egp-dy-nG9"/>
+                            <constraint firstAttribute="trailing" secondItem="oOx-qG-sQV" secondAttribute="trailing" constant="20" id="FKU-68-SIZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KYu-M1-u3n" secondAttribute="trailing" constant="119" id="WUu-AQ-Q1y"/>
+                            <constraint firstItem="KYu-M1-u3n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="cfG-r8-FAZ"/>
+                            <constraint firstItem="Cq1-9a-fzS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="130" id="f6k-ft-xdT"/>
+                            <constraint firstItem="Cq1-9a-fzS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="rVh-n9-7XY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cq1-9a-fzS" secondAttribute="trailing" constant="127.5" id="tYN-8Z-IxG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KYu-M1-u3n" secondAttribute="bottom" constant="25" id="wmN-cd-0H6"/>
+                            <constraint firstItem="oOx-qG-sQV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="160" id="xFf-3G-299"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cFl-eJ-N1S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476" y="133.5832083958021"/>
+        </scene>
+        <!--Typing View Controller-->
+        <scene sceneID="Zwq-0k-1zN">
+            <objects>
+                <viewController id="bL9-Nu-OYd" customClass="TypingViewController" customModule="NYU_Voice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j3d-VS-hvN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EXm-TJ-Mvd">
+                                <rect key="frame" x="96" y="192" width="182" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dG-MM-7wz">
+                                <rect key="frame" x="164" y="337" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.58463440387030152" green="0.40230234201197079" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="SHOW"/>
+                                <connections>
+                                    <segue destination="UxQ-1j-Pu4" kind="show" identifier="SendTextSegue" id="dbu-GV-tdn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78633367327977632" green="0.65258418439649146" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5K7-J4-T4w" firstAttribute="bottom" secondItem="2dG-MM-7wz" secondAttribute="bottom" constant="300" id="5f7-F3-vlG"/>
+                            <constraint firstItem="5K7-J4-T4w" firstAttribute="trailing" secondItem="2dG-MM-7wz" secondAttribute="trailing" constant="165" id="7y8-hc-Jfk"/>
+                            <constraint firstItem="EXm-TJ-Mvd" firstAttribute="top" secondItem="5K7-J4-T4w" secondAttribute="top" constant="128" id="GsU-D7-uIr"/>
+                            <constraint firstItem="2dG-MM-7wz" firstAttribute="leading" secondItem="5K7-J4-T4w" secondAttribute="leading" constant="164" id="Lrs-C3-XOR"/>
+                            <constraint firstItem="EXm-TJ-Mvd" firstAttribute="leading" secondItem="5K7-J4-T4w" secondAttribute="leading" constant="96" id="Zrl-f4-MfH"/>
+                            <constraint firstItem="5K7-J4-T4w" firstAttribute="trailing" secondItem="EXm-TJ-Mvd" secondAttribute="trailing" constant="97" id="z2c-9i-sRm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5K7-J4-T4w"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="utV-iP-Obz"/>
+                    <connections>
+                        <outlet property="textField" destination="EXm-TJ-Mvd" id="nC4-vX-4dS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V7O-SG-hRk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476" y="922"/>
+        </scene>
+        <!--Text Show View Controller-->
+        <scene sceneID="mV6-Uv-WOJ">
+            <objects>
+                <viewController id="UxQ-1j-Pu4" customClass="TextShowViewController" customModule="NYU_Voice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JVI-05-NcK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4W-0K-hhj">
+                                <rect key="frame" x="-100" y="164" width="575" height="375"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="375" id="QdK-kA-aWN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqz-bT-7Oz">
+                                <rect key="frame" x="16" y="617" width="43" height="30"/>
+                                <state key="normal" title="Active"/>
+                                <connections>
+                                    <action selector="changeStyleButtonClicked:" destination="UxQ-1j-Pu4" eventType="touchUpInside" id="0S4-mv-nwa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8O6-Wt-xfs" customClass="MarqueeLabel" customModule="MarqueeLabel">
+                                <rect key="frame" x="-111" y="339" width="596" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Ph3-YT-2hC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TF3-h1-VUl" firstAttribute="bottom" secondItem="mqz-bT-7Oz" secondAttribute="bottom" constant="20" id="EvZ-VL-tEA"/>
+                            <constraint firstItem="TF3-h1-VUl" firstAttribute="trailing" secondItem="mqz-bT-7Oz" secondAttribute="trailing" constant="316" id="H5P-yq-zzE"/>
+                            <constraint firstItem="TF3-h1-VUl" firstAttribute="trailing" secondItem="8O6-Wt-xfs" secondAttribute="trailing" constant="-110" id="Ja7-5m-sgb"/>
+                            <constraint firstItem="mqz-bT-7Oz" firstAttribute="leading" secondItem="TF3-h1-VUl" secondAttribute="leading" constant="16" id="SpC-kG-OAT"/>
+                            <constraint firstItem="8O6-Wt-xfs" firstAttribute="leading" secondItem="mqz-bT-7Oz" secondAttribute="trailing" constant="-170" id="cSO-N4-gLV"/>
+                            <constraint firstItem="TF3-h1-VUl" firstAttribute="trailing" secondItem="w4W-0K-hhj" secondAttribute="trailing" constant="-100" id="gpR-kP-QW4"/>
+                            <constraint firstItem="w4W-0K-hhj" firstAttribute="top" secondItem="TF3-h1-VUl" secondAttribute="top" constant="100" id="pmF-aR-0Qp"/>
+                            <constraint firstItem="8O6-Wt-xfs" firstAttribute="top" secondItem="w4W-0K-hhj" secondAttribute="bottom" constant="-200" id="tUD-eh-XmE"/>
+                            <constraint firstItem="w4W-0K-hhj" firstAttribute="leading" secondItem="TF3-h1-VUl" secondAttribute="leading" constant="-100" id="yB8-sh-z3p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TF3-h1-VUl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eaF-2F-yw9">
+                        <nil key="title"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="changeStyleButton" destination="mqz-bT-7Oz" id="qWg-Y0-ebA"/>
+                        <outlet property="demoLabel" destination="8O6-Wt-xfs" id="xNy-vl-xpy"/>
+                        <outlet property="label" destination="w4W-0K-hhj" id="hNV-tG-MeU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="McM-gZ-4pB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1338" y="922"/>
+        </scene>
+        <!--Recording View Controller-->
+        <scene sceneID="Vyv-uk-o8P">
+            <objects>
+                <viewController id="3HM-ml-jAC" customClass="RecordingViewController" customModule="NYU_Voice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4uw-26-f3B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DRX-3m-3tk">
+                                <rect key="frame" x="0.0" y="202" width="375" height="465"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="HY2-c0-aQC">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HY2-c0-aQC" id="kAp-qG-Zyh">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="3HM-ml-jAC" id="7xV-mg-pyf"/>
+                                    <outlet property="delegate" destination="3HM-ml-jAC" id="Ncd-Ab-0lX"/>
+                                    <outlet property="prefetchDataSource" destination="3HM-ml-jAC" id="YAh-Rp-dzF"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZK1-cV-psk">
+                                <rect key="frame" x="159" y="116" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addButtonClicked:" destination="3HM-ml-jAC" eventType="touchUpInside" id="457-LB-Lut"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zC7-5X-eD6" firstAttribute="trailing" secondItem="DRX-3m-3tk" secondAttribute="trailing" id="0kA-Jf-2B8"/>
+                            <constraint firstItem="DRX-3m-3tk" firstAttribute="top" secondItem="zC7-5X-eD6" secondAttribute="top" constant="138" id="LO1-9b-BeX"/>
+                            <constraint firstItem="DRX-3m-3tk" firstAttribute="leading" secondItem="zC7-5X-eD6" secondAttribute="leading" id="M7Q-B7-kDd"/>
+                            <constraint firstItem="zC7-5X-eD6" firstAttribute="bottom" secondItem="DRX-3m-3tk" secondAttribute="bottom" id="h0E-HI-Gt5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zC7-5X-eD6"/>
+                    </view>
+                    <connections>
+                        <outlet property="recordingButton" destination="ZK1-cV-psk" id="OC8-dh-Ro4"/>
+                        <outlet property="recordingTableView" destination="DRX-3m-3tk" id="Yme-CU-otI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4OB-kO-Xm7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1311.2" y="132.68365817091455"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s4E-wa-ak8">
+            <objects>
+                <viewController id="flH-vU-Yr2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dcu-S9-aqs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="3200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bha-BN-QV3">
+                                <rect key="frame" x="0.0" y="64" width="375" height="3136"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jRT-DG-r0R">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="3500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our Staff" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTb-qY-iNK">
+                                                <rect key="frame" x="8" y="8" width="133" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Milan R. Amin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gj1-Jx-2VW">
+                                                <rect key="frame" x="135" y="80" width="104" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milan_r_amin" translatesAutoresizingMaskIntoConstraints="NO" id="hK4-Cw-z71">
+                                                <rect key="frame" x="112" y="110.5" width="150" height="200"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ryan C. Branski" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PK1-dI-JI8">
+                                                <rect key="frame" x="125" y="668.5" width="125" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ryan_c_branski" translatesAutoresizingMaskIntoConstraints="NO" id="gIx-Jw-3yb">
+                                                <rect key="frame" x="112" y="699.5" width="150" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="YIA-4h-Igj"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxA-cg-Kcz">
+                                                <rect key="frame" x="50" y="909.5" width="275" height="331"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="331" id="73H-WT-ZdY"/>
+                                                </constraints>
+                                                <string key="text">PhD  Associate Director | Speech Pathology, Otolaryngology Dr. Branski is a licensed speech–language pathologist. He runs an active research laboratory funded by the National Institutes of Health (NIH) and is considered a leader in the study of vocal fold injury and repair and the development of novel gene therapy techniques. He is a standing member of the Motor Function, Speech, and Rehabilitation Study Section at the NIH and a fellow in both the American Laryngological Association and the American Academy of Otolaryngology-Head and Neck Surgery. He has published more than 80 scientific articles and two seminal books about the voice.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wth-5L-O33">
+                                                <rect key="frame" x="50" y="320.5" width="275" height="318"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="318" id="S49-p0-dmd"/>
+                                                </constraints>
+                                                <string key="text">MD Director | Laryngology &amp; Voice, Otolaryngology, Head &amp; Neck Surgery Dr. Amin has served as the director of NYU Langone’s Voice Center since 2005. He specializes in the treatment of vocal cord problems for professionals who depend on their voices every day. He also treats people for swallowing and airway concerns as well as voice disorders. Dr. Amin participates in research dedicated to improving the quality of life for individuals with voice, swallowing, and airway disorders. He is currently the Service Chief of Otolaryngology for Tisch Hospital and Chief of the Division of Laryngology, as well as president of the New York Laryngological Society.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paul_e_kwak" translatesAutoresizingMaskIntoConstraints="NO" id="t4L-wW-dr8">
+                                                <rect key="frame" x="112" y="1321.5" width="150" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="spb-eY-PbK"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Szw-VU-bvT">
+                                                <rect key="frame" x="50" y="1531.5" width="275" height="299"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="299" id="WFq-7E-kl9"/>
+                                                </constraints>
+                                                <string key="text">MD  Laryngologist | Laryngology &amp; Voice, Head &amp; Neck Surgery, Otolaryngology Dr. Kwak is a laryngeal surgeon who specializes in care of the professional voice. Dr. Kwak completed his clinical fellowship in laryngeal surgery at Massachusetts General Hospital. He is a graduate of The Juilliard School, where he studied vocal accompanying and opera coaching and earned a master’s degree in collaborative piano. Dr. Kwak’s clinical and research interests center on the care of the professional voice, and his most recent publications examine physiologic and acoustic effects of opera performance.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aaron M. Johnson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2B-zJ-O8e">
+                                                <rect key="frame" x="100" y="1860.5" width="175" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aaron_m_johnson" translatesAutoresizingMaskIntoConstraints="NO" id="0Vp-Su-7Lf">
+                                                <rect key="frame" x="112" y="1891.5" width="150" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="4oL-Lp-5zl"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="b6L-ID-xcH">
+                                                <rect key="frame" x="50" y="2101.5" width="275" height="338"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="338" id="evx-Sn-N0U"/>
+                                                </constraints>
+                                                <string key="text">PhD  Singing Voice Specialist | Speech Pathology, Otolaryngology, Laryngology &amp; Voice Dr. Johnson is a speech–language pathologist specializing in voice habilitation and rehabilitation to prevent and treat voice disorders in performing artists. His research laboratory, funded by the NIH, examines the effects of vocal training on the aging larynx. A former professional classical singer and teacher of singing, Dr. Johnson holds a degree in vocal performance from Northwestern University, a certificate in vocology from the National Center for Voice and Speech, and earned his research doctorate from the University of Wisconsin-Madison.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paul E. Kwak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPN-N3-qrA">
+                                                <rect key="frame" x="100" y="1270.5" width="175" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shirley Gherson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGR-nZ-NgN">
+                                                <rect key="frame" x="100" y="2469.5" width="175" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirley_gherson" translatesAutoresizingMaskIntoConstraints="NO" id="ZWl-f4-i9z">
+                                                <rect key="frame" x="112" y="2500.5" width="150" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="qMq-yL-6jB"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CEU-Ye-ID1">
+                                                <rect key="frame" x="50" y="2710.5" width="275" height="270"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="270" id="Byr-1O-oa4"/>
+                                                </constraints>
+                                                <string key="text">Speech–Language Pathologist | Speech Pathology Ms. Gherson has been working with patients with voice disorders since 2003, and is considered an expert in the area of treating high-level voice professionals, paradoxical vocal cord dysfunction, and pediatric voice disorders. She is particularly interested in the evaluation and treatment of patients with medically complex or multi-factorial voice conditions such as spasmodic dysphonia or traumatic vocal injury.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="hxA-cg-Kcz" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="50" id="0DB-vF-8IF"/>
+                                            <constraint firstItem="tPN-N3-qrA" firstAttribute="top" secondItem="hxA-cg-Kcz" secondAttribute="bottom" constant="30" id="1dh-Vo-rnF"/>
+                                            <constraint firstItem="wth-5L-O33" firstAttribute="top" secondItem="hK4-Cw-z71" secondAttribute="bottom" constant="10" id="1se-dp-Cp4"/>
+                                            <constraint firstItem="wth-5L-O33" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="50" id="1xb-tO-7Oi"/>
+                                            <constraint firstAttribute="trailing" secondItem="gGR-nZ-NgN" secondAttribute="trailing" constant="100" id="1zJ-5Z-uMu"/>
+                                            <constraint firstAttribute="trailing" secondItem="t4L-wW-dr8" secondAttribute="trailing" constant="113" id="2Ca-QK-9do"/>
+                                            <constraint firstItem="hK4-Cw-z71" firstAttribute="top" secondItem="gj1-Jx-2VW" secondAttribute="bottom" constant="10" id="3JE-gi-xKm"/>
+                                            <constraint firstAttribute="trailing" secondItem="V2B-zJ-O8e" secondAttribute="trailing" constant="100" id="3sF-fN-1un"/>
+                                            <constraint firstItem="gIx-Jw-3yb" firstAttribute="top" secondItem="PK1-dI-JI8" secondAttribute="bottom" constant="10" id="5KH-fk-pfW"/>
+                                            <constraint firstAttribute="trailing" secondItem="CEU-Ye-ID1" secondAttribute="trailing" constant="50" id="5ii-kQ-MBo"/>
+                                            <constraint firstAttribute="trailing" secondItem="hK4-Cw-z71" secondAttribute="trailing" constant="113" id="5kv-dj-sUN"/>
+                                            <constraint firstAttribute="trailing" secondItem="gIx-Jw-3yb" secondAttribute="trailing" constant="113" id="6bq-Ab-TKu"/>
+                                            <constraint firstItem="gj1-Jx-2VW" firstAttribute="top" secondItem="jRT-DG-r0R" secondAttribute="top" constant="80" id="6ew-17-H93"/>
+                                            <constraint firstItem="tPN-N3-qrA" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="100" id="8nU-z8-FGp"/>
+                                            <constraint firstAttribute="trailing" secondItem="0Vp-Su-7Lf" secondAttribute="trailing" constant="113" id="8yf-9E-N6I"/>
+                                            <constraint firstItem="t4L-wW-dr8" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="112" id="CgF-J5-s1p"/>
+                                            <constraint firstItem="Szw-VU-bvT" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="50" id="Cy3-bR-r6K"/>
+                                            <constraint firstAttribute="trailing" secondItem="gj1-Jx-2VW" secondAttribute="trailing" constant="136" id="DBf-2f-p04"/>
+                                            <constraint firstItem="V2B-zJ-O8e" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="100" id="Fyg-eK-fgD"/>
+                                            <constraint firstItem="gIx-Jw-3yb" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="112" id="HEF-uN-Wt0"/>
+                                            <constraint firstItem="CEU-Ye-ID1" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="50" id="HPK-Qt-Zic"/>
+                                            <constraint firstItem="ZWl-f4-i9z" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="112" id="IhR-0v-a42"/>
+                                            <constraint firstItem="t4L-wW-dr8" firstAttribute="top" secondItem="tPN-N3-qrA" secondAttribute="bottom" constant="30" id="LfT-7T-oNr"/>
+                                            <constraint firstAttribute="trailing" secondItem="hxA-cg-Kcz" secondAttribute="trailing" constant="50" id="Mbv-97-j9T"/>
+                                            <constraint firstItem="gGR-nZ-NgN" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="100" id="SYT-14-LsQ"/>
+                                            <constraint firstItem="CEU-Ye-ID1" firstAttribute="top" secondItem="ZWl-f4-i9z" secondAttribute="bottom" constant="10" id="VK4-L8-gZ3"/>
+                                            <constraint firstAttribute="trailing" secondItem="wth-5L-O33" secondAttribute="trailing" constant="50" id="WA6-m2-iD9"/>
+                                            <constraint firstItem="b6L-ID-xcH" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="50" id="WSV-5Y-uFb"/>
+                                            <constraint firstAttribute="height" constant="3500" id="X1o-j5-2Hz"/>
+                                            <constraint firstItem="0Vp-Su-7Lf" firstAttribute="top" secondItem="V2B-zJ-O8e" secondAttribute="bottom" constant="10" id="aCA-KE-GrD"/>
+                                            <constraint firstItem="hxA-cg-Kcz" firstAttribute="top" secondItem="gIx-Jw-3yb" secondAttribute="bottom" constant="10" id="b0B-Sf-pgG"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZWl-f4-i9z" secondAttribute="trailing" constant="113" id="bnF-S6-x27"/>
+                                            <constraint firstItem="gGR-nZ-NgN" firstAttribute="top" secondItem="b6L-ID-xcH" secondAttribute="bottom" constant="30" id="bqM-AY-hpQ"/>
+                                            <constraint firstItem="hTb-qY-iNK" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="8" id="cIC-SX-TZi"/>
+                                            <constraint firstItem="ZWl-f4-i9z" firstAttribute="top" secondItem="gGR-nZ-NgN" secondAttribute="bottom" constant="10" id="ghE-5c-aaG"/>
+                                            <constraint firstAttribute="trailing" secondItem="tPN-N3-qrA" secondAttribute="trailing" constant="100" id="h4R-2R-gzW"/>
+                                            <constraint firstItem="gj1-Jx-2VW" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="135" id="hJA-QM-FOc"/>
+                                            <constraint firstAttribute="trailing" secondItem="b6L-ID-xcH" secondAttribute="trailing" constant="50" id="i2K-0i-y4D"/>
+                                            <constraint firstItem="hK4-Cw-z71" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="112" id="iJM-td-wZ4"/>
+                                            <constraint firstAttribute="trailing" secondItem="PK1-dI-JI8" secondAttribute="trailing" constant="125" id="jKE-Kh-tts"/>
+                                            <constraint firstAttribute="trailing" secondItem="Szw-VU-bvT" secondAttribute="trailing" constant="50" id="jve-HE-iPB"/>
+                                            <constraint firstItem="PK1-dI-JI8" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="125" id="mXZ-fn-WcD"/>
+                                            <constraint firstItem="PK1-dI-JI8" firstAttribute="top" secondItem="wth-5L-O33" secondAttribute="bottom" constant="30" id="mki-aY-n54"/>
+                                            <constraint firstItem="Szw-VU-bvT" firstAttribute="top" secondItem="t4L-wW-dr8" secondAttribute="bottom" constant="10" id="oRh-3A-vfB"/>
+                                            <constraint firstItem="hTb-qY-iNK" firstAttribute="top" secondItem="jRT-DG-r0R" secondAttribute="top" constant="8" id="tNw-Os-vZe"/>
+                                            <constraint firstItem="V2B-zJ-O8e" firstAttribute="top" secondItem="Szw-VU-bvT" secondAttribute="bottom" constant="30" id="vvg-P9-C84"/>
+                                            <constraint firstItem="0Vp-Su-7Lf" firstAttribute="leading" secondItem="jRT-DG-r0R" secondAttribute="leading" constant="112" id="xCn-E7-ljO"/>
+                                            <constraint firstItem="b6L-ID-xcH" firstAttribute="top" secondItem="0Vp-Su-7Lf" secondAttribute="bottom" constant="10" id="z8K-AX-ukt"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="jRT-DG-r0R" secondAttribute="bottom" id="6is-bC-y9S"/>
+                                    <constraint firstAttribute="trailing" secondItem="jRT-DG-r0R" secondAttribute="trailing" id="PW3-Zy-01p"/>
+                                    <constraint firstItem="jRT-DG-r0R" firstAttribute="top" secondItem="Bha-BN-QV3" secondAttribute="top" id="sCH-Uj-62K"/>
+                                    <constraint firstItem="jRT-DG-r0R" firstAttribute="leading" secondItem="Bha-BN-QV3" secondAttribute="leading" id="zas-q6-vPZ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Bha-BN-QV3" firstAttribute="top" secondItem="Qth-V7-RTK" secondAttribute="top" id="ESY-O8-P9Q"/>
+                            <constraint firstItem="Bha-BN-QV3" firstAttribute="leading" secondItem="Qth-V7-RTK" secondAttribute="leading" id="UmI-ne-49x"/>
+                            <constraint firstItem="jRT-DG-r0R" firstAttribute="width" secondItem="Dcu-S9-aqs" secondAttribute="width" id="eX5-HJ-DSL"/>
+                            <constraint firstItem="Qth-V7-RTK" firstAttribute="bottom" secondItem="Bha-BN-QV3" secondAttribute="bottom" id="hPX-Nf-c2p"/>
+                            <constraint firstItem="Qth-V7-RTK" firstAttribute="trailing" secondItem="Bha-BN-QV3" secondAttribute="trailing" id="sjv-3a-Uel"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Qth-V7-RTK"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="3200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ziI-gZ-EzE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2072.8000000000002" y="1029.9850074962519"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="V2n-Bp-H7B">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KMO-Xk-AKy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7l0-jp-bIb">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="i09-xd-49Q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="poI-ZV-gVw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-230" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="aaron_m_johnson" width="300" height="400"/>
+        <image name="icon" width="613" height="605"/>
+        <image name="milan_r_amin" width="150" height="200"/>
+        <image name="paul_e_kwak" width="300" height="400"/>
+        <image name="ryan_c_branski" width="300" height="400"/>
+        <image name="shirley_gherson" width="300" height="400"/>
+    </resources>
+</document>

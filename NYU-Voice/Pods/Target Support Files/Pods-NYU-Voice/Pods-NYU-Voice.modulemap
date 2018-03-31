@@ -1,0 +1,6 @@
+framework module Pods_NYU_Voice {
+  umbrella header "Pods-NYU-Voice-umbrella.h"
+
+  export *
+  module * { export * }
+}
